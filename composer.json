@@ -1,0 +1,17 @@
+{
+  "name": "adirona/session-handler",
+  "description": "Secure Extend for PHP Session Handler",
+  "type": "library",
+  "license": "MIT",
+  "minimum-stability": "stable",
+  "require": {
+    "ext-sodium": "*",
+    "ext-mbstring": "*"
+  },
+  "autoload": {
+    "classmap": [
+      "src/EncryptionDecryptionService.php",
+      "src/SessionSecureHandler.php"
+    ]
+  }
+}
